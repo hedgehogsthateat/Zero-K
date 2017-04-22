@@ -52,8 +52,7 @@ unitDef = {
   },
   sightDistance       = 450,
   sonarDistance       = 230,
-  turninplace         = 0,
-  turnRate            = 673,
+  turninplace         = 0,  turnRate            = 673,
   workerTime          = 0,
 
   weapons             = {
@@ -63,7 +62,6 @@ unitDef = {
       badTargetCategory  = [[FIXEDWING]],
       onlyTargetCategory = [[FIXEDWING LAND SINK TURRET SUB SHIP SWIM FLOAT GUNSHIP HOVER]],
     },
-
   },
 
   weaponDefs         = {
@@ -82,9 +80,9 @@ unitDef = {
 		},
 
 		damage                  = {
-			default = 110,
-			planes  = 110,
-			subs    = 110,
+			default = 90,
+			planes  = 90,
+			subs    = 90,
 		},
 		
 		cegTag					= [[sonictrail]],
